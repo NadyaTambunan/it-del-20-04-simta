@@ -1,0 +1,10 @@
+.button-back {
+    background-color: darkred;
+    margin-left: 70%;
+    color: white;
+}
+
+.button-done {
+    background-color: rgb(0, 110, 255);
+    color: white;
+}

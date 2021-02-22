@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pemberian Nilai</title>
+	</head>
+	<body>
+		<h1 style = "text-align:center">Pemberian Nilai</h1>
+		<hr>
+		<form> 
+			<label>Pilih Sesi</label>
+			<br>
+			<input list="Prodi" name="Prodi">
+			<datalist id="Prodi">
+				<option value="Pra Seminar">
+				<option value="Seminar">
+				<option value="Pra Sidang">
+				<option value="Sidang">
+			</datalist>
+			<br>
+			<label>Kelompok</label>
+			<br>
+			<input list="Kelompok" name="Kelompok">
+			<datalist id="Kelompok">
+				<option value="1">
+				<option value="2">
+				<option value="3">
+			</datalist>
+			<br>
+			<h2>Nilai Akhir</h2>
+
+			<label for="fkom1">Komponen 1</label>
+			<input type="boolean"
+			id="fkom1" name="fkom1"> 
+			<br>
+			<label for="fkom2">Komponen 2</label>
+			<input type="boolean"
+			id="fkom2" name="fkom2"> 
+			<br>
+			<label for="fkom3">Komponen 3</label>
+			<input type="boolean"
+			id="fkom3" name="fkom3"> 
+			<br>
+
+			<label for="hasil">
+			Hasil Akhir</label>
+			<output name="x" for="fkom1  fkom2 fkom3"></output>
+
+			<p align="right"> 
+				<input type="button" Value="publish"/>
+			</p>
+
+		</form>
+
+	</body>
+</html>

@@ -1,0 +1,22 @@
+.container {
+    box-shadow: 0 5px 20px rgba(0,0,0, 0.5); 
+    padding: 40px;
+    border-radius: 15px;
+    width: 450px;
+    background: white;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+button {
+    width: 48%;
+}
+
+.forgot-pasw {
+    padding-bottom: 3%;
+}
+
+.logo {
+    padding-bottom: 3%;
+}
