@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+
+    position: relative;
+
+
+    position: relative;
+
+
+}
+
+.drag{
+    border: 1px solid black;
+    height: 6cm;
+    background-color:white;
+}
+
+h2, p {
+    color: black;
+}
+
+.formdrag{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+h4 {
+    color: black;
+}
+
+.icon{
+    width: 1cm;
+    height: 1cm;
+    align-items: center;
+}
+
+.choosefile{
+    width: 150px; 
+    height: 50px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: rgb(197, 197, 197); 
+    align-items: center;
+    display:none;
+}
+
+.textarea{
+    color: lightslategrey;
+}
+
+.btnBatal{
+    background-color: red;
+}
+
+.btnKirim{
+    background-color: blue;
+}
+
+.btnLaporan{
+    background-color: white;
+    color: black;
+}
+
+.btnSesi{
+    background-color: white;
+    color: black;
+
+}
